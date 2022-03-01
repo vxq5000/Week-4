@@ -1,0 +1,196 @@
+.jsbtn {
+  background-color: transparent;
+  border-color: transparent
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: rgb(63, 60, 60);
+  color: white;
+  width: 1500px;
+  height: 80px;
+  align-items: center;
+  display: flex;
+}
+
+.nav-title {
+  margin-left: 20px;
+  font-weight: light;
+  margin-right: 400px;
+  margin-left: 100px;
+}
+
+.nav-links {
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 15px;
+  display: flex;
+}
+
+.nav-links .active {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.nav-links .btn {
+  background-color: rgb(43, 187, 187);
+  color: white;
+  font-size: 15px;
+  padding: 5px 20px;
+  border-radius: 2px;
+
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  background-color: rgb(43, 187, 187);
+  width: 480px;
+  padding: 10px;
+}
+
+.card {
+  border: 3px solid rgb(201, 189, 189);
+  width: 500px;
+  height: 350px;
+  margin: 20px 20px 30px 150px;
+}
+
+.info {
+  margin: 10px;
+}
+
+.info h1 {
+  margin-bottom: 20px;
+  margin-top: 60px;
+}
+.user {
+  width: 150px;
+  margin-bottom: -75px;
+}
+
+.marker {
+  width: 10px;
+  margin: 5px;
+}
+
+.gear {
+  width: 15px;
+  padding: 0px;
+  background-color: white;
+}
+
+.info h3 {
+  font-size: 18px;
+  font-weight: lighter;
+  margin: 15px;
+}
+
+.bottom-container {
+  border: 3px solid rgb(201, 189, 189);
+  width: 500px;
+  height: 200px;
+  margin: 20px 20px 30px 150px;
+}
+
+.education,
+.requests,
+.bottom-column-right {
+  color: white;
+  background-color: rgba(48, 42, 42, 0.863);
+  height: 30px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.experience {
+  font-size: 22px;
+  font-weight: light;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.dates {
+  color: rgb(124, 117, 117);
+  padding-top: 3px;
+  padding-left: 10px;
+}
+.specs {
+  font-weight: 550;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.right-column {
+  position: absolute;
+  right: 575px;
+  top: 100px;
+  width: 250px;
+  height: 175px;
+  border: 3px solid rgb(201, 189, 189);
+}
+
+.pics {
+  border-radius: 50%;
+  width: 40px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.small-icons {
+  width: 25px;
+}
+.todd h2 {
+  display: inline;
+  margin-right: 20px;
+}
+
+.phil h2 {
+  display: inline;
+  margin-right: 29px;
+}
+
+.bottom-right {
+  position: absolute;
+  right: 575px;
+  top: 300px;
+  width: 250px;
+  height: 350px;
+  border: 3px solid rgb(201, 189, 189);
+}
+
+.profiles h2 {
+  display: inline;
+}
+
+.view {
+  border-top: 3px solid rgb(201, 189, 189);
+  margin-top: 20px;
+}
+
+.view a {
+  margin: 15px;
+}
